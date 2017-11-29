@@ -3,8 +3,9 @@
 ### Situation
 
 The data of every survivor is stored in servers on antartica. From all over the world people can search this list using filters to find the people they are looking for.
-Unfortunately the link to the satellite went down. There will be a health-check query, once this health check finds the right output file, the uplink will be restored.
-antartica needs help for providing the query result in their filesystem so the satellite uplink will be fixed.
+Since new survivors are found once in a while, the list constantly changes.
+To make sure that this server is always accessible, every couple of minutes there will be an automatic query.  The result of this query will change since the list changes.
+antartica needs help for providing the query result in their filesystem so the satellite uplink stays.
 
 <img src="http://sms-teleport.com/wp-content/uploads/2014/07/Satellite-communications-with-earth-reflecting-574x350.jpg"/>
 
@@ -16,7 +17,7 @@ antartica needs help for providing the query result in their filesystem so the s
 * If the output file is correct, the servers will be linked with the satellite.
 * If no output file is found or it's wrong, the satellite link will stay down.
 
-<b>input file: </b> input.data<br/>
+<b>input file: </b> input.data
 <b>output file: </b> output.data
 
 waar het staat (bespreken met johan)
@@ -29,63 +30,9 @@ waar het staat (bespreken met johan)
 
 ##### Rules:
 
-There will be queried for these filters:
-* female
-* older than 25
-* divorced
-
-Print the following column:
-* names of major industry code
-(In the data example the word "construction" will be printed)
-
+Er word gezocht naar personen met
+zoeken naar vrouwen boven de 25, gescheiden, 
+type van localgoverenment namen
 
 ### Tips
 https://www.tutorialspoint.com/awk/awk_basic_syntax.htm
-
-##### data column names:
-```
-age						
-class of worker					
-industry code					
-occupation code					
-adjusted gross income				
-education					
-wage per hour					
-enrolled in edu inst last wk			
-marital status					
-major industry code				
-major occupation code				
-mace						
-hispanic Origin					
-sex						
-member of a labor union				
-reason for unemployment				
-full or part time employment stat		
-capital gains					
-capital losses					
-divdends from stocks				
-federal income tax liability			
-tax filer status				
-region of previous residence			
-state of previous residence			
-detailed household and family stat		
-detailed household summary in household		
-instance weight					
-migration code-change in msa			
-migration code-change in reg			
-migration code-move within reg			
-live in this house 1 year ago			
-migration prev res in sunbelt			
-num persons worked for employer			
-family members under 18				
-total person earnings				
-country of birth father				
-country of birth mother				
-country of birth self				
-citizenship					
-total person income				
-own business or self employed			
-taxable income amount				
-fill inc questionnaire for veteran's admin	
-veterans benefits				
-weeks worked in year		
