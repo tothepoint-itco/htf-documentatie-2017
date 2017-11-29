@@ -11,7 +11,7 @@ Every validator is hidden from public access. To get a validation attempt, you m
 * the challenge you wish to validate
 * the publicly reachable endpoint where our validator can call your algorithm.
 * All requests need to be authenticated by your personal access token. Don’t share your token with other groups!
-
+* For ngrok help, please visit: <a href="https://www.tothepoint.company/blog/ngrok/">this blog</a>
 * our endpoint is http://central.35.190.2.232.nip.io/check?challenge=asia&token=mytoken&endpoint=someNgrokEndpoint`
 
 ##### THE VALIDATION PROCES
