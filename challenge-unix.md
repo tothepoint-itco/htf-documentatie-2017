@@ -19,8 +19,6 @@ antartica needs help for providing the query result in their filesystem so the s
 <b>input file: </b> input.data<br/>
 <b>output file: </b> output.data
 
-waar het staat (bespreken met johan)
-
 ##### Data example
 ```
 73, Not in universe, 0, 0, High school graduate, 0, Not in universe, Widowed, Not in universe or children, Not in universe, White, All other, Female, Not in universe, Not in universe, Not in labor force, 0, 0, 0, Nonfiler, Not in universe, Not in universe, Other Rel 18+ ever marr not in subfamily, Other relative of householder, 1700.09, ?, ?, ?, Not in universe under 1 year old, ?, 0, Not in universe, United-States, United-States, United-States, Native- Born in the United States, 0, Not in universe, 2, 0, 95, - 50000.
