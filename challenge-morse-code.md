@@ -16,6 +16,9 @@ A big powersurge caused the communication equipment in Nigeria to break down. Si
 * Pause between dots and dashes in a character – is 1 time unit long.
 * Pause between characters inside a word – is 3 time units long.
 * Pause between words – is 7 time units long.
+
+###### Switches 1000
+
 ### Request
 
 | Key           | Data type     | 

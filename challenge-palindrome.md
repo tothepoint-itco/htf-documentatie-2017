@@ -9,7 +9,15 @@ helps them figure out which code is a palindrome so they can start investigating
 <img src="http://www.panamatoday.com/sites/default/files/styles/large/public/2017-04/drug%20traffic.jpg?itok=-8RAl4Ch"/>
 
 ### Problem
+
+return the next palindrome number for the given number
+
 ##### Rules:
+ - a palindrome is a number which remains the same if you reverse it.
+ 
+ ##### Switches: 1110
+
+ 
 ### Request
 
 | Key           | Data type     | 
@@ -18,7 +26,7 @@ helps them figure out which code is a palindrome so they can start investigating
 example:
 ```
 {
-"TEMP": 123
+"value": 123
 }
 ```
 
@@ -30,7 +38,7 @@ example:
 example:    
 ```
 {
-   "TEMP": 321
+   "value": 202
 }
 ```
 

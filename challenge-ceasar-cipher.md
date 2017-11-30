@@ -17,6 +17,7 @@ Help Australia decrypt the message so they can prevent the shipment from arrivin
     * <b>Numbers:</b> Don't change
     * <b>Special Characters:</b> Don't change
 
+##### Switches: 0101 
 
 
 ### Request

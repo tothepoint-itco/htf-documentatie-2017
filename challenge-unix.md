@@ -36,6 +36,7 @@ Print the following column:
 * names of major industry code
 (In the data example the word "construction" will be printed)
 
+##### Switches: 0010
 
 ### Tips
 https://www.tutorialspoint.com/awk/awk_basic_syntax.htm

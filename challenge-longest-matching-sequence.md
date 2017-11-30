@@ -2,23 +2,31 @@
 
 ### Situation
 
-South-america is developing a cure to counter the chemical attacks caused by terrorists. They have developed a couple of cures and ran some tests on them. Now they need to figure out which of them is the most resistent. To figure out which cure is the strongest, the scientists need to find the longest strand of dna they can find in the test results.
+South-america is developing a cure to counter the chemical attacks caused by terrorists. They have developed a couple of cures and ran some tests on them. Now they need to figure out which of them is the most resistent. To figure out which cure is the strongest, the scientists need to find the longest strand of dna in the test results.
 
 <img src="http://s3.amazonaws.com/digitaltrends-uploads-prod/2016/04/DNA-double-helix.jpg"/>
 
 ### Problem
+
+Find the longest subsequence that is present in `strandA` and `strandB.`
+
 ##### Rules:
+- Position in the `String doesn't matter and when multiple sequences are tied for longest, 
+
+###### Switches 0001
+
+
 ### Request
 
 | Key           | Data type     | 
 |:-------------:|:-------------:| 
-| TEMP     | Array of integer        | 
-| TEMP     | integer        |
+| strandA     | String| 
+| strandB     | String        |
 example:
 ```
 {
-"TEMP": [0,1,0,2,0,1,1,2,1,0,1,0,1,0,1,2,1,0,1,2,0,1,2,0,0,1,0,2,0,1,1,2,1,0,1,0,1,0,1,2,1,0,1,2,0,1,2],
-"TEMP": 10
+    "strandA": "kjldmfqsjdlmsqjaaaafkldsmqkfjldsmqfopifpezîorrlmdfkùfdjksqmf",
+    "strandB": "kjmlsdqfkldmsqfidosqfijezkfldsmqfeoprzpodsklqmfkdjsqmlfjdlsqmfjdiosqfezfiaaaa"
 }
 ```
 
@@ -26,13 +34,16 @@ example:
 
 | Key           | Data type     |
 |:-------------:|:-------------:| 
-| TEMP      | array of integer       |
+| value         | String        |
 example:
 ```
 {
-   "TEMP": [1,2,3,1,2,1,2]
+   "value": "aaaa"
 }
 ```
 
 
 ### Tips
+
+- Any matching substring counts, at any location
+- In AI, a sequence often gets divided into tokens. Consider tokens of ever decreasing length to find the longest match.

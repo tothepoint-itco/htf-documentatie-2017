@@ -9,32 +9,36 @@ The system revolves around adding a series of repeating digits in their Social S
 
 ### Problem
 
-* You will receive a randomly generated big number and have to check if there are 3 repeating digits in those numbers.
+Does the `String` of digits contain a sequence of three digits that are the same. 
+
 ##### Rules:
+
+###### Switches: 1101
+
 ### Request
 
 | Key           | Data type     | 
 |:-------------:|:-------------:| 
-| TEMP     | Array of integer        | 
+| value         | String        | 
+
 example:
 ```
 {
-"TEMP": [0,1,0,2,0,1,1,2,1,0,1,0,1,0,1,2,1,0,1,2,0,1,2,0,0,1,0,2,0,1,1,2,1,0,1,0,1,0,1,2,1,0,1,2,0,1,2],
-"TEMP": 10
-}
+"value": "1234567423456789456789765334567"}
 ```
 
 ### Response
 
 | Key           | Data type     |
 |:-------------:|:-------------:| 
-| TEMP      | array of integer       |
+| solution      |   boolean     |
 example:
 ```
 {
-   "TEMP": [1,2,3,1,2,1,2]
+   "solution": false
 }
 ```
 
 
 ### Tips
+
